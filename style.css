@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.671);
+  color: rgb(252, 252, 252);
+}
+h1{
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: auto;
+
+  background-color: rgba(174, 200, 207, 0.493);
+}
+nav,ul,li{
+list-style:none;
+text-align:center;
+display: flex;
+justify-content:center;
+align-items:center;
+padding: 10px;
+
+
+}
+a{
+text-decoration:none;
+color: rgb(201, 180, 180);
+font-size: 20px;
+font-weight: 400px;
+border: 2px solid rgb(73, 27, 27);
+background-color: rgb(51, 32, 19);
+border-radius: 5px;
+padding: 5px;
+box-shadow: 11px 8px 21px -2px rgba(138,43,43,0.57) inset;
+text-transform: 0.5s;
+}
+a:hover{
+  background-color: rgb(83, 62, 62);
+  
+}
+.image img {
+  width: 100%;
+  padding: 20px 30px 40px 50px;
+}
+ .image-sign{
+  display:block;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  padding: auto;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+
+}
+projectSample ,h2{
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+  color: gainsboro;
+}
+.card-body a {
+  align-items:center;
+  margin: 6px;
+  padding: 2px;
+  background-color: rgb(192, 13, 13);
+  display: block;
+}
