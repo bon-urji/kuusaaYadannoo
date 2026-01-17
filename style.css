@@ -42,22 +42,23 @@ a:hover{
   background-color: rgb(83, 62, 62);
   
 }
-.image img {
+
+ .carousel-item {
+  height: 50vh;              /* ONE height for all slides */
+}
+
+.image-sign {
   width: 100%;
-  padding: 20px 30px 40px 50px;
-}
- .image-sign{
-  display:block;
-  margin: auto;
-  width: 50%;
-  height: 50%;
-  padding: auto;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
   overflow: hidden;
-
-
 }
+
+.image-sign img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;         /* NO stretch, NO distortion */
+}
+
 projectSample ,h2{
   text-align: center;
   padding: 5px;
